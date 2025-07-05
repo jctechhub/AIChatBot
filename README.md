@@ -3,6 +3,7 @@
 A Next.js AI chat application built with the AI SDK, featuring OpenAI integration.
 
 Ref from AI SDK: https://ai-sdk.dev/docs/getting-started/nextjs-app-router
+Youtube: https://www.youtube.com/watch?v=y4IMq43KvRw
 
 ## Getting Started
 
