@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AIChatBot
+
+A Next.js AI chat application built with the AI SDK, featuring OpenAI integration.
+
+Ref from AI SDK: https://ai-sdk.dev/docs/getting-started/nextjs-app-router
 
 ## Getting Started
 
-First, run the development server:
+First, set up your environment variables:
+
+1. Create a `.env.local` file in the root directory
+2. Add your OpenAI API key:
+   ```
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -16,9 +28,12 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Real-time chat with OpenAI GPT-4o
+- Streaming responses
+- Error handling and validation
+- Modern UI with Tailwind CSS
 
 ## Learn More
 
@@ -26,8 +41,7 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [AI SDK Documentation](https://ai-sdk.dev/docs/getting-started/nextjs-app-router) - learn about AI SDK integration.
 
 ## Deploy on Vercel
 
